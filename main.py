@@ -1,6 +1,6 @@
 import argparse
 
-
+# dstest
 def main():
     parser = argparse.ArgumentParser(description='Инструмент визуализации графа зависимостей для менеджера пакетов')
     parser.add_argument('-n', '--packet_name', type=str, help='Имя анализируемого пакета')
